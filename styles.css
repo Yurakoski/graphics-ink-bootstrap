@@ -11,17 +11,151 @@
     grid-template-rows: repeat(3, auto);
 }
 
-header{
-    background-color: black;
+.cabecera{
     display: flex;
     flex-direction: column;
 }
-
+.cabecera__logo{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
 .logo{
     width: 24rem;
     height: 8rem;
-    display: block;
-    margin: auto;
     padding: 0.5rem;
     animation: animacionLogo 1s ease 0s 1 normal forwards;
 }
+
+.navbar{
+    background-color: rgb(19, 19, 83);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbarNavDropdown{
+    justify-content: center;
+}
+
+.nav-link:hover{
+    background-color:rgb(86, 76, 145);
+}
+.nav-link:active{
+    background-color:rgb(75, 63, 139);
+}
+
+.navbar-toggler{
+    background-color: rgb(7, 76, 141);
+}
+
+.dropdown-menu{
+    background-color: rgb(81, 60, 156);
+}
+
+.dropdown-item:hover{
+    background-color: rgb(117, 103, 167);
+}
+
+.titulo, .tituloClaro{
+    font-size: 1.4rem;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:  rgba(2, 2, 2, 0.541);
+    color: white;
+}
+
+.tituloClaro{
+    background-color: rgba(255, 255, 255, 0.274);
+}
+
+.subTitulo{
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+.parrafoInicial, .parrafoSecundario{
+    font-size: 2rem;
+    text-align: center;
+    padding: 5rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    color: black;
+}
+
+.parrafoInicial p, .parrafoSecundario p{
+    background-color:  rgba(2, 2, 2, 0.767);
+    color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.parrafoSecundario p{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+h3{
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+}
+
+
+
+.fondoInicio{
+    background-image: url(./imagenes/printer.jpg);  
+    background-size: cover;
+}
+
+.imagen, .mapa{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.mapa{
+    padding: 1rem 1rem;
+    background-color:  rgba(2, 2, 2, 0.479);
+}
+
+
+.piePagina{
+    background-color: black;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piePagina__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.piePagina__lista li{
+    list-style-type: none;
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+
