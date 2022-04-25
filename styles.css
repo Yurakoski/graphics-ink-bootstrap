@@ -39,11 +39,6 @@
     padding-right: 3.2rem;;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
 #navbarNavDropdown{
     justify-content: center;
 }
@@ -67,6 +62,24 @@ a{
     background-color: rgb(117, 103, 167);
 }
 
+h1{ 
+    margin-bottom: 0;
+}
+
+h2{ 
+    font-size: 1.5rem;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+h3{
+    color: white;
+    background-color: black;
+    margin-bottom: 0;
+}
+
 .titulo, .tituloClaro{
     font-size: 1.4rem;
     text-align: center;
@@ -74,6 +87,7 @@ a{
     padding: 2rem;
     background-color:  rgba(2, 2, 2, 0.541);
     color: white;
+    
 }
 
 .tituloClaro{
@@ -93,8 +107,8 @@ a{
     font-size: 2rem;
     text-align: center;
     padding: 5rem;
-    padding-right: 8rem;
-    padding-left: 8rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
     color: black;
 }
 
@@ -109,17 +123,6 @@ a{
     font-size: 1.4rem;
     padding: 1rem;
 }
-
-h2, h3{
-    text-align: center;
-}
-
-h3{
-    color: white;
-    background-color: black;
-    font-size: 1.2rem;
-}
-
 
 
 .fondoInicio{
@@ -136,7 +139,6 @@ h3{
     padding: 1rem 1rem;
     background-color:  rgba(2, 2, 2, 0.479);
 }
-
 
 .piePagina{
     background-color: black;
