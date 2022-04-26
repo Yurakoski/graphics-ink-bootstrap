@@ -74,6 +74,10 @@ a{
     color: white;
 }
 
+.active{
+    color: white;
+}
+
 h1{ 
     margin-bottom: 0;
 }
@@ -177,6 +181,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .piePagina__lista li{
@@ -184,5 +189,9 @@ h3{
     color: white;
     font-size: 0.9rem;
     padding-top: 0.5rem;
+}
+
+ol, ul{
+    margin: 0;
 }
 
