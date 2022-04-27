@@ -64,7 +64,7 @@ a{
     color: white;
 }
 
-.active{
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: white;
 }
 
@@ -149,10 +149,6 @@ ol, ul{
     background-color: #00000052;
 }
 
-main{
-    background-color: black;
-}
-
 .mb-4 label{
     color: white;
 }
@@ -172,6 +168,10 @@ p{
 .mb-0 {
     margin-top: 2rem;
     margin-bottom: 0;
+}
+
+.mb-2 {
+    margin-bottom: 0!important; /* !important usado para sacar el margen inferior en section, que venía con un "margin-botton: 0.5rem!important" desde Bootstrap */
 }
 
 .mt-4{
