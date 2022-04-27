@@ -13,12 +13,13 @@
 
 <body>
     <div class="gridContainer">
-      
-        <header class="cabecera">
-          <div class="cabecera__logo">
-            <a href="../index.html"><img src="../imagenes/logo3b.png" class="logo" alt="Logo de la empresa"/></a>  
-          </div>
-          <nav class="navbar navbar-expand-lg navbar-light">
+
+    <header>
+      <div class="container-fluid bg-black text-center">
+        <a href="#"><img src="../imagenes/logo3b.png" class="logo m-3" alt="Logo de la empresa"/></a>  
+      </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon "></span>
@@ -50,14 +51,18 @@
                 </ul>
               </div>
             </div>
-          </nav>
-        </header>
+      </nav>
+    </header>
 
         <main>
-          <div class="fondoInicio">
-             <div class="titulo"><h1><b>Productos</b></h1></div>
+          <section class="fondoInicio">
+            <div class="titulo text-center p-4">
+              <h1>Nuestros productos</h1>
           </div>
-          <div class="subTitulo" id="vinilos"><h2>Vinilos para vidrieras y calcos</h2></div>
+
+          <div class="subTitulo bg-black text-center p-2" id="vinilos">
+            <h2>Vinilos para vidrieras y calcos</h2>
+          </div>
           
           <section class="fondoPlotter">
             <div class="container py-5">
@@ -105,7 +110,9 @@
             </div>
           </section>
 
-          <div class="subTitulo" id="llaveros"><h2>Llaveros Publicitarios</h2></div>
+          <div class="subTitulo bg-black text-center p-2" id="llaveros">
+            <h2>Llaveros Publicitarios</h2>
+          </div>
               <div class="fondoPlotter">
               <section class="container py-5">
               <div id="carousel02" class="carousel slide" data-bs-ride="carousel">
@@ -153,7 +160,10 @@
               </section>
           </div>
 
-            <div class="subTitulo" id="remeras"><h2>Remeras Estampadas</h2></div>
+          <div class="subTitulo bg-black text-center p-2" id="remeras">
+            <h2>Remeras estampadas</h2>
+          </div>
+
             <div class="fondoPlotter">
               <section class="container py-5">
                 <div id="carousel03" class="carousel slide" data-bs-ride="carousel">
@@ -200,17 +210,18 @@
                 </div>
                 </section>
                 </div>
+          </section>
         </main>
 
         <footer>
-            <div class="piePagina">
-            <ul class="piePagina__lista">
-                <li><a href="https://www.instagram.com/graphics.ink" target="_blank">
-                    <i class="fa-brands fa-instagram fa-2xl"></i> Seguinos en Instagram!</a></li>              
-                <li><p>Graphics Ink - General San Martín - Buenos Aires</p></li>
-            </ul>
-            </div>
-        </footer>
+          <div class="piePagina bg-black text-center p-4">
+          <ul class="piePagina__lista">
+              <li><a href="https://www.instagram.com/graphics.ink" target="_blank">
+                  <i class="fa-brands fa-instagram fa-2xl"></i> Seguinos en Instagram!</a></li>              
+              <li><p>Graphics Ink - Servicios Gráficos</p></li>
+          </ul>
+          </div>
+      </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
