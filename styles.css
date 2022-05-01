@@ -16,8 +16,12 @@
     height: 9rem;
 }
 
+.logoFooter{
+    width: 8rem;
+}
+
 .navbar{
-    background-color: rgb(19, 19, 83);
+    background-color: rgb(20, 6, 100);
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -33,7 +37,7 @@
 }
 
 .nav-link:hover{
-    background-color:rgb(86, 76, 145);
+    background-color:rgb(32, 3, 196);
 }
 .nav-link:active{
     background-color:rgb(75, 63, 139);
@@ -68,14 +72,39 @@ a{
     color: white;
 }
 
+video{
+    width: 100%;
+    max-width: 800px;
+}
+
 h2{ 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+}
+
+h4{ 
+    color:white;
 }
 
 .titulo, .mapa{
     font-size: 1.4rem;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(2, 2, 2, 0.767);
     color: white;
+}
+
+h1{
+    animation: animacionTitulo 1s ease 0s 1 normal forwards;
+}
+
+@keyframes animacionTitulo {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .subTitulo{
@@ -83,19 +112,29 @@ h2{
 }
 
 .parrafoInicial{
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .parrafoInicial p, .parrafoSecundario p{
-    background-color:  rgba(2, 2, 2, 0.767);
     color: white;
     border-radius: 1rem;
-    padding: 2rem;
 }
 
 .parrafoSecundario p{
-    font-size: 1.4rem;
-    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.bordeRedondeado{
+    border-radius: 1rem;
+}
+
+.fondoOpaco{
+    background-color: rgba(2, 2, 2, 0.767);
+    border-radius: 1rem;
+}
+
+.fondoPrincipal{
+    background-color: rgb(12, 4, 56);
 }
 
 .fondoInicio{
@@ -103,8 +142,13 @@ h2{
     background-size: cover;
 }
 
+.fondoProductos{
+    background-image: url(./imagenes/ola-fondo2.jpg); 
+    background-size: cover;
+}
+
 .fondoPlotter{
-    background-image: url(./imagenes/plotter.jpg);  
+    background-image: url(./imagenes/plotter5.jpg);  
     background-size: cover;
 }
 
@@ -113,7 +157,7 @@ h2{
     background-size: cover;
 }
 
-.imagen, .mapa{
+.imagen{
     padding-top: 2rem;
     text-align: center;
 }
@@ -121,14 +165,11 @@ h2{
 .container{
     display: flex;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 #carousel01, #carousel02, #carousel03{
     width: 70%;
-}
-
-.piePagina{
-    height: 7rem;
 }
 
 .piePagina__lista li{
@@ -140,24 +181,10 @@ h2{
 
 ol, ul{
     margin: 0;
+    padding-left: 0;
 }
 
-.mb-4 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    margin-bottom: 0;
-    background-color: #00000052;
-}
-
-.mb-4 label{
-    color: white;
-}
-
-.fa-solid, .fas {
-    color: white;
-}
-
-p{
+.mb-4 label, p, .fa-solid, .fas {
     color: white;
 }
 
@@ -165,19 +192,46 @@ p{
     justify-content: center;
 }
 
-.mb-0 {
-    margin-top: 2rem;
-    margin-bottom: 0;
-}
-
-.mb-2 {
-    margin-bottom: 0!important; /* !important usado para sacar el margen inferior en section, que venía con un "margin-botton: 0.5rem!important" desde Bootstrap */
-}
-
-.mt-4{
-    margin-top: 0;
+.btn-primary{
+    background-color: rgb(56, 56, 163);
+    border-color: rgb(56, 56, 163);
+    width: 30rem;
 }
 
 textarea.form-control {
     height: 10rem;
+}
+
+.listaFooter li, .listaFooter li a{
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.centrado{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.animacionTexto{
+    color:white;
+    animation: animacionTexto 7s linear 0s infinite normal forwards;
+}
+
+@keyframes animacionTexto {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
 }

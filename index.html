@@ -21,7 +21,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -55,33 +55,55 @@
     </header>
 
     <main>
-        <section class="fondoInicio">
-            <div class="titulo text-center p-4">
+        <div class="fondoInicio">
+            <div class="titulo text-center p-5">
                 <h1>¡Bienvenidos a Graphics Ink!</h1>
             </div>
-          <div class="container parrafoInicial p-5 text-center">
-            <div class="col-lg-10 col-md-10 col-sm-12">
+
+          <div class="container parrafoInicial pt-5 pb-5 mt-5 mb-5 text-center fondoOpaco">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="row">
-                <p>Nos dedicamos a hacer realidad tus proyectos gráficos.<br/>Utilizamos maquinaria de última generación y los mejores materiales, con el fin de brindarte la mejor calidad en nuestros productos.</p>
+                <p>Nos dedicamos a hacer realidad tus proyectos gráficos.
+                  <br/>Utilizamos maquinaria de última generación y los mejores materiales, con el fin de brindarte la mejor calidad en nuestros productos.<br><br>Promocioná tu empresa, marca o comercio con nuestros productos publicitarios!
+                  <br><br><h1 class="animacionTexto">¡Porque la publicidad es lo más importante!</h1></p>
               </div>
-            </div>
+            </div> 
           </div>
-          <div class="subTitulo bg-black text-center p-2"><h2>Estamos ubicados en el Partido de Gral. San Martín</h2></div>
-          <div class="mapa p-4">  
+
+          <section class="container text-center pb-5">
+              <div class="col-lg-8 col-md-8 col-sm-12 p-5 bordeRedondeado">
+                <video controls>
+                  <source src="./imagenes/videoInicio.mp4" type="video/mp4">
+                </video>
+              </div>
+          </section>
+          <div class="subTitulo bg-black text-center p-2"><h2>Estamos ubicados en el Partido de Gral. San Martín, provincia de Buenos Aires.</h2></div>
+          <div class="text-center fondoOpaco p-3">  
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.454178992788!2d-58.546200520729045!3d-34.57599341968877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb77160243783%3A0x5e21a2d3c0a65957!2sSan%20Mart%C3%ADn%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649292463039!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>    
-        </section>
+        </div>
     </main>
 
     <footer>
-      <div class="piePagina bg-black text-center p-4">
-      <ul class="piePagina__lista">
-          <li><a href="https://www.instagram.com/graphics.ink" target="_blank">
-              <i class="fa-brands fa-instagram fa-2xl"></i> Seguinos en Instagram!</a></li>              
-          <li><p>Graphics Ink - Servicios Gráficos</p></li>
-      </ul>
+      <div class="container-fluid fondoPrincipal pb-2">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 pt-4 pb-4 centrado">
+            <img src="./imagenes/logo-footer.png" class="logoFooter" alt="Imagen vinilo">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 centrado">
+              <p>GRAPHICS INK - SERVICIOS GRÁFICOS</p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 centrado text-center">
+           <ul class="listaFooter">
+             <li><a href="https://www.instagram.com/graphics.ink" target="_blank">
+                 <i class="fa-brands fa-instagram fa-xl p-2"></i>graphics.ink</a></li>
+                 <li><i class="fa-solid fa-envelope fa-xl p-2"></i>graphicsink@gmail.com</li>
+             <li><i class="fa-solid fa-location-dot fa-xl p-2"></i>Gral. San Martín, Bs. As.</li>
+           </ul>
+          </div>
+          </div> 
       </div>
-  </footer>
+    </footer>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
