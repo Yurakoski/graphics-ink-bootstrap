@@ -33,6 +33,22 @@ ol, ul {
   margin: 0;
   padding-left: 0; }
 
+.fondoInicio {
+  background-image: url(../../imagenes/printer.jpg);
+  background-size: cover; }
+
+.fondoProductos {
+  background-image: url(../../imagenes/ola-fondo.jpg);
+  background-size: cover; }
+
+.fondoPlotter {
+  background-image: url(../../imagenes/plotter5.jpg);
+  background-size: cover; }
+
+.fondoServicios {
+  background-image: url(../../imagenes/printer2.jpg);
+  background-size: cover; }
+
 .logo {
   width: 24rem;
   height: 9rem; }
@@ -133,22 +149,6 @@ video {
 .listaFooter a {
   text-decoration: none;
   color: white; }
-
-.fondoInicio {
-  background-image: url(../../imagenes/printer.jpg);
-  background-size: cover; }
-
-.fondoProductos {
-  background-image: url(../../imagenes/ola-fondo.jpg);
-  background-size: cover; }
-
-.fondoPlotter {
-  background-image: url(../../imagenes/plotter5.jpg);
-  background-size: cover; }
-
-.fondoServicios {
-  background-image: url(../../imagenes/printer2.jpg);
-  background-size: cover; }
 
 #carousel01, #carousel02, #carousel03, #carousel04 {
   width: 70%; }
