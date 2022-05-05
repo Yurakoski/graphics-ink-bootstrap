@@ -155,5 +155,14 @@ video {
 
 .btn-primary {
   background-color: #2b16a3;
-  border-color: #294191;
-  width: 30rem; }
+  border-color: #294191; }
+
+.botonEnviar {
+  background-color: #2b16a3;
+  color: white; }
+
+.botonEnviar:hover {
+  background-color: #294191; }
+
+.formulario__item, .formulario__item--mensaje, .botonEnviar {
+  width: 25rem; }

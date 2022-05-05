@@ -198,6 +198,9 @@ ol, ul{
     margin: 0;
     padding-left: 0;
 }
+textarea.form-control {
+    height: 10rem;
+}
 
 .btn-primary{
 
@@ -234,16 +237,5 @@ ol, ul{
     }
 
 
-
-
-
-
-
-    
-
-
-textarea.form-control {
-    height: 10rem;
-}
 
 
