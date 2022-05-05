@@ -1,0 +1,48 @@
+
+h2{ 
+    font-size: $tamanio-texto-grande;
+}
+
+h1, h2, h3, h4{ 
+    color: $color-fuente-principal;
+}
+
+
+.parrafoInicial p, .parrafoSecundario p{
+    color: $color-fuente-principal;
+}
+
+.parrafoInicial{
+    font-size: $tamanio-texto-principal;
+}
+
+.parrafoSecundario p{
+    font-size: $tamanio-texto-secundario;
+}
+
+.bordeRedondeado{
+    border-radius: $radio-borde;
+}
+
+.fondoOpaco{
+    background-color: $negro-transparencia;
+}
+
+
+.animacionTexto{
+    color: $color-fuente-principal;
+    animation: animacionTexto 7s linear 0s infinite normal forwards;
+}
+
+@keyframes animacionTexto {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}

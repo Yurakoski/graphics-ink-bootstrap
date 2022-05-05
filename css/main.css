@@ -1,2 +1,149 @@
-.cabecera {
-  background-color: green; }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Jost', sans-serif; }
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto); }
+
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 1rem; }
+
+.row {
+  justify-content: center; }
+
+.centrado {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+p {
+  color: white; }
+
+.imagen {
+  padding-top: 2rem;
+  text-align: center; }
+
+.logo {
+  width: 24rem;
+  height: 9rem; }
+
+.navbar {
+  background-color: #140664; }
+
+.navbar-light .navbar-nav .nav-link {
+  justify-content: center;
+  font-size: 1.2rem;
+  color: white;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem; }
+
+#navbarNavDropdown {
+  justify-content: center; }
+
+.nav-link {
+  border-radius: 0.3rem; }
+
+.nav-link:hover {
+  background-color: #294191; }
+
+.dropdown-menu {
+  background-color: #2b16a3; }
+
+.navbar-toggler-icon, .dropdown-item, a:hover {
+  color: white; }
+
+.dropdown-item:hover {
+  background-color: #71a2db; }
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+
+.titulo {
+  font-size: 1.4rem;
+  background-color: rgba(2, 2, 2, 0.658);
+  color: white; }
+
+h2 {
+  font-size: 2rem; }
+
+h1, h2, h3, h4 {
+  color: white; }
+
+.parrafoInicial p, .parrafoSecundario p {
+  color: white; }
+
+.parrafoInicial {
+  font-size: 1.6rem; }
+
+.parrafoSecundario p {
+  font-size: 1.2rem; }
+
+.bordeRedondeado {
+  border-radius: 1rem; }
+
+.fondoOpaco {
+  background-color: rgba(2, 2, 2, 0.658); }
+
+.animacionTexto {
+  color: white;
+  animation: animacionTexto 7s linear 0s infinite normal forwards; }
+
+@keyframes animacionTexto {
+  0%,
+  50%,
+  100% {
+    opacity: 1; }
+  25%,
+  75% {
+    opacity: 0; } }
+
+video {
+  width: 100%;
+  max-width: 800px; }
+
+.fondoPrincipal {
+  background-color: #140664; }
+
+.logoFooter {
+  width: 8rem; }
+
+.listaFooter li {
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  list-style: none; }
+
+.listaFooter a {
+  text-decoration: none;
+  color: white; }
+
+.fondoInicio {
+  background-image: url(../../imagenes/printer.jpg);
+  background-size: cover; }
+
+.fondoProductos {
+  background-image: url(../../imagenes/ola-fondo.jpg);
+  background-size: cover; }
+
+.fondoPlotter {
+  background-image: url(../../imagenes/plotter5.jpg);
+  background-size: cover; }
+
+.fondoServicios {
+  background-image: url(../../imagenes/printer2.jpg);
+  background-size: cover; }
+
+#carousel01, #carousel02, #carousel03, #carousel04 {
+  width: 70%; }
+
+.btn-primary {
+  background-color: #2b16a3;
+  border-color: #294191;
+  width: 30rem; }

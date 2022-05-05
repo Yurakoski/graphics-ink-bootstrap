@@ -1,3 +1,44 @@
-.cabecera{
-    background-color: green;
+.logo{
+    width: 24rem;
+    height: 9rem;
+}
+
+.navbar{
+        background-color: $azul-intenso;
+    }
+
+.navbar-light .navbar-nav .nav-link{
+    justify-content: center;
+    font-size: 1.2rem;
+    color: $color-fuente-principal;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;;
+}
+
+#navbarNavDropdown{
+    justify-content: center;
+}
+
+.nav-link{
+    border-radius: 0.3rem;
+}
+
+.nav-link:hover{
+    background-color: $azul-intermedio;
+}
+
+.dropdown-menu{
+    background-color: $azul-oscuro;
+}
+
+.navbar-toggler-icon, .dropdown-item, a:hover{
+    color: $color-fuente-principal;
+}
+
+.dropdown-item:hover{
+    background-color: $azul-claro;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: $color-fuente-principal;
 }

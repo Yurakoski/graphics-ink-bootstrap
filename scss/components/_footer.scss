@@ -1,0 +1,21 @@
+.fondoPrincipal{
+    background-color: $azul-intenso;
+}
+
+.logoFooter{
+    width: 8rem;
+}
+
+.listaFooter{
+             li{
+                padding-top: 1rem;
+                font-size: 1rem;
+                color: $color-fuente-principal;
+                text-decoration: none;
+                list-style: none;
+                }
+                    a{
+                       text-decoration: none;
+                       color: $color-fuente-principal;
+                    }
+}
