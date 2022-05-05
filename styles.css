@@ -191,18 +191,24 @@ video{
 .fondoServicios{
     background-image: url(./imagenes/printer2.jpg);  
     background-size: cover;
+}    
+
+
+ol, ul{
+    margin: 0;
+    padding-left: 0;
 }
 
-
 .btn-primary{
+
     background-color: rgb(56, 56, 163);
     border-color: rgb(56, 56, 163);
     width: 30rem;
-}
+}    
 
 .fa-circle-check{
     color: rgb(49, 179, 240);
-}
+}    
 */
 
 
@@ -217,12 +223,12 @@ video{
     }
 
     @-webkit-keyframes fadeIn {
-    0% {opacity: 0;}
+    0% {opacity: 0;}    
     50% {opacity: 0.5}
     100% {opacity: 1;}
     }
     @keyframes fadeIn {
-    0% {opacity: 0;}
+    0% {opacity: 0;}    
     50% {opacity: 0.5}
     100% {opacity: 1;}
     }
@@ -233,13 +239,7 @@ video{
 
 
 
-
-
-ol, ul{
-    margin: 0;
-    padding-left: 0;
-}
-
+    
 
 
 textarea.form-control {
