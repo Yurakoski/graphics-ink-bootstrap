@@ -34,7 +34,7 @@ ol, ul {
   padding-left: 0; }
 
 .fondoInicio {
-  background-image: url(../../imagenes/printer.jpg);
+  background-image: url(../imagenes/printer.jpg);
   background-size: cover; }
 
 .fondoProductos {
