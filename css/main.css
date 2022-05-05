@@ -43,6 +43,9 @@ p {
   padding-left: 3.2rem;
   padding-right: 3.2rem; }
 
+.navbar-toggler {
+  background-color: #71a2db; }
+
 #navbarNavDropdown {
   justify-content: center; }
 
@@ -102,6 +105,9 @@ h1, h2, h3, h4 {
   25%,
   75% {
     opacity: 0; } }
+
+.fa-circle-check {
+  color: #71a2db; }
 
 video {
   width: 100%;
