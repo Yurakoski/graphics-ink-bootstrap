@@ -1,3 +1,15 @@
-.formulario__item{
-    height: 100rem;
+.formulario{
+    padding: 1rem;
+
+        .formulario__item {
+            width: 25rem;
+            font-size: 1rem;
+            height: 2rem;
+        }
+        .formulario__item--mensaje{
+            width: 25rem;
+            font-size: 1rem;
+            padding-bottom: 5rem;
+        }
+        
 }

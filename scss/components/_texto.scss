@@ -1,22 +1,22 @@
-
-h2{ 
-    font-size: $tamanio-texto-grande;
-}
-
 h1, h2, h3, h4{ 
-    color: $color-fuente-principal;
-}
-
-.parrafoInicial p, .parrafoSecundario p{
     color: $color-fuente-principal;
 }
 
 .parrafoInicial{
     font-size: $tamanio-texto-principal;
+
+        & p{
+            color: $color-fuente-principal;
+        }
 }
 
-.parrafoSecundario p{
+.parrafoSecundario{
     font-size: $tamanio-texto-secundario;
+      
+        & p{
+             color: $color-fuente-principal;
+    }
+
 }
 
 .bordeRedondeado{
@@ -43,8 +43,4 @@ h1, h2, h3, h4{
 	75% {
 		opacity: 0;
 	}
-}
-
-.fa-circle-check{
-    color: $azul-claro;
 }

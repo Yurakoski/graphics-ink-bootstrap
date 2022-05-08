@@ -1,17 +1,13 @@
-.btn-primary{
-    background-color: $azul-oscuro;
-    border-color: $azul-intermedio;
-}
-
 .botonEnviar{
+    width: 25rem;
+    font-size: 1rem;
+    height: 3rem;
+    border-color: $azul-intermedio;
     background-color: $azul-oscuro;
     color: $color-fuente-principal;
-}
+    margin-bottom: 5rem;
 
-.botonEnviar:hover{
-    background-color: $azul-claro;
-}
-
-.formulario__item, .formulario__item--mensaje, .botonEnviar{
-    width: 25rem;
+        &:hover{
+            background-color: $azul-claro;
+        }
 }

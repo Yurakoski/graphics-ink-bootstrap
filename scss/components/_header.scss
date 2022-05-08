@@ -5,6 +5,15 @@
 
 .navbar{
         background-color: $azul-intenso;
+
+        .navbar-toggler{
+            background-color: $azul-claro;
+
+            .navbar-toggler-icon{
+                color: $color-fuente-principal;
+            }
+        }
+
     }
 
 .navbar-light .navbar-nav .nav-link{
@@ -15,8 +24,17 @@
     padding-right: 3rem;
 }
 
-.navbar-toggler{
-    background-color: $azul-claro;
+
+.dropdown-menu{
+    background-color: $azul-oscuro;
+    
+    .dropdown-item{
+        color: $color-fuente-principal;
+
+            &:hover{
+                background-color: $azul-claro;
+            }
+    }
 }
 
 #navbarNavDropdown{
@@ -25,22 +43,10 @@
 
 .nav-link{
     border-radius: 0.3rem;
-}
-
-.nav-link:hover{
-    background-color: $azul-intermedio;
-}
-
-.dropdown-menu{
-    background-color: $azul-oscuro;
-}
-
-.navbar-toggler-icon, .dropdown-item, a:hover{
-    color: $color-fuente-principal;
-}
-
-.dropdown-item:hover{
-    background-color: $azul-claro;
+    
+         &:hover{
+              background-color: $azul-intermedio;
+        }
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
