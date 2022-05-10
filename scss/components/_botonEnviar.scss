@@ -2,12 +2,12 @@
     width: 25rem;
     font-size: 1rem;
     height: 3rem;
-    border-color: $azul-intermedio;
-    background-color: $azul-oscuro;
-    color: $color-fuente-principal;
+    border-color: map-get($colores, azul-intermedio);
+    background-color: map-get($colores, azul-oscuro);
+    color: map-get($colores, color-fuente-principal);
     margin-bottom: 5rem;
 
         &:hover{
-            background-color: $azul-claro;
+            background-color: map-get($colores, azul-claro);
         }
 }

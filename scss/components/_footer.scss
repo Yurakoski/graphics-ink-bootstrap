@@ -1,5 +1,5 @@
 .fondoPrincipal{
-    background-color: $azul-intenso;
+    background-color: map-get($colores, azul-intenso);
 }
 
 .logoFooter{
@@ -9,13 +9,13 @@
 .listaFooter{
              li{
                 padding-top: 1rem;
-                font-size: 1rem;
-                color: $color-fuente-principal;
+                font-size: map-get($tamanio-tipografia, texto-pequenio);
+                color: map-get($colores, color-fuente-principal);
                 text-decoration: none;
                 list-style: none;
                 }
                     a{
                        text-decoration: none;
-                       color: $color-fuente-principal;
+                       color: map-get($colores, color-fuente-principal);
                     }
 }

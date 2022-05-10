@@ -12,25 +12,13 @@
 }
 
 .container{
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     border-radius: 1rem;
     margin: 0;
 }
 
 .row{
     justify-content: center;
-}
-
-.centrado{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-  }
-
-p{
-    color: $color-fuente-principal;
 }
 
 .imagen{
@@ -44,5 +32,9 @@ ol, ul{
 }
 
 .fa-circle-check{
-    color: $azul-claro;
+    color: map-get($colores, azul-claro);
+}
+
+.centrado{
+     @extend %flex-center;
 }

@@ -4,13 +4,13 @@
 }
 
 .navbar{
-        background-color: $azul-intenso;
+        background-color: map-get($colores, azul-intenso);
 
         .navbar-toggler{
-            background-color: $azul-claro;
+            background-color: map-get($colores, azul-claro);
 
             .navbar-toggler-icon{
-                color: $color-fuente-principal;
+                color: map-get($colores, color-fuente-principal);
             }
         }
 
@@ -19,20 +19,20 @@
 .navbar-light .navbar-nav .nav-link{
     justify-content: center;
     font-size: 1.1rem;
-    color: $color-fuente-principal;
+    color: map-get($colores, color-fuente-principal);
     padding-left: 3rem;
     padding-right: 3rem;
 }
 
 
 .dropdown-menu{
-    background-color: $azul-oscuro;
+    background-color: map-get($colores, azul-oscuro);
     
     .dropdown-item{
-        color: $color-fuente-principal;
+        color: map-get($colores, color-fuente-principal);
 
             &:hover{
-                background-color: $azul-claro;
+                background-color: map-get($colores, azul-claro);
             }
     }
 }
@@ -45,10 +45,10 @@
     border-radius: 0.3rem;
     
          &:hover{
-              background-color: $azul-intermedio;
+              background-color: map-get($colores, azul-intermedio);
         }
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
-    color: $color-fuente-principal;
+    color: map-get($colores, color-fuente-principal);
 }

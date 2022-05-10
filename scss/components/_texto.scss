@@ -1,20 +1,24 @@
 h1, h2, h3, h4{ 
-    color: $color-fuente-principal;
+    color: map-get($colores, color-fuente-principal);
+}
+
+p{
+    color: map-get($colores, color-fuente-principal);
 }
 
 .parrafoInicial{
-    font-size: $tamanio-texto-principal;
+    font-size: map-get($tamanio-tipografia, texto-principal);
 
         & p{
-            color: $color-fuente-principal;
+            color: map-get($colores, color-fuente-principal);
         }
 }
 
 .parrafoSecundario{
-    font-size: $tamanio-texto-secundario;
+    font-size: map-get($tamanio-tipografia, texto-secundario);
       
         & p{
-             color: $color-fuente-principal;
+             color: map-get($colores, color-fuente-principal);
     }
 
 }
@@ -24,11 +28,11 @@ h1, h2, h3, h4{
 }
 
 .fondoOpaco{
-    background-color: $negro-transparencia;
+    background-color: map-get($colores, negro-transparencia);
 }
 
 .animacionTexto{
-    color: $color-fuente-principal;
+    color: map-get($colores, color-fuente-principal);
     animation: animacionTexto 7s linear 0s infinite normal forwards;
 }
 

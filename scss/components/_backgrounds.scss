@@ -1,19 +1,15 @@
 .fondoInicio{
-    background-image: url(../imagenes/printer.jpg);  
-    background-size: cover;
+    @include background-image(url(../imagenes/printer.jpg)); 
 }
 
 .fondoProductos{
-    background-image: url(../imagenes/ola-fondo.jpg); 
-    background-size: cover;
+    @include background-image(url(../imagenes/ola-fondo.jpg));
 }
 
 .fondoPlotter{
-    background-image: url(../imagenes/plotter5.jpg);  
-    background-size: cover;
+    @include background-image(url(../imagenes/plotter5.jpg));
 }
 
 .fondoServicios{
-    background-image: url(../imagenes/printer2.jpg);  
-    background-size: cover;
+    @include background-image(url(../imagenes/printer2.jpg));
 }

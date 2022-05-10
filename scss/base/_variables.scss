@@ -1,12 +1,29 @@
-$azul-intenso: rgb(20, 6, 100);
-$azul-oscuro: rgb(43, 22, 163);
-$azul-intermedio: rgb(41, 65, 145);
-$azul-claro: rgb(113, 162, 219);
-$negro-transparencia: rgba(2, 2, 2, 0.658);
-$color-fuente-principal: white;
-$tamanio-titulo: 1.4rem;
-$tamanio-texto-principal: 1.6rem;
-$tamanio-texto-secundario: 1.2rem;
-$radio-borde: 1rem;
-$tamanio-texto-grande: 2rem;
+$colores:(
+    azul-intenso: rgb(20, 6, 100),
+    azul-oscuro: rgb(43, 22, 163),
+    azul-intermedio: rgb(41, 65, 145),
+    azul-claro: rgb(113, 162, 219),
+    negro-transparencia: rgba(2, 2, 2, 0.658),
+    color-fuente-principal: white,
+);
 
+$tamanio-tipografia:( 
+    titulos: 1.4rem,
+    texto-principal: 1.6rem,
+    texto-secundario: 1.2rem,
+    texto-grande: 2rem,
+    texto-pequenio: 1rem,
+    );
+    
+$radio-borde: 1rem;
+
+%flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin background-image($urlImagen){
+    background-image: $urlImagen;
+    background-size: cover;
+};
