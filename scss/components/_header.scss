@@ -49,6 +49,6 @@
         }
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover .show>.nav-link{
     color: map-get($colores, color-fuente-principal);
 }
