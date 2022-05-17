@@ -1,3 +1,54 @@
-.cabecera{
-    background-color: green;
+.logo{
+    width: 22rem;
+    height: 9rem;
+}
+
+.navbar{
+        background-color: map-get($colores, azul-intenso);
+
+        .navbar-toggler{
+            background-color: map-get($colores, azul-claro);
+
+            .navbar-toggler-icon{
+                color: map-get($colores, color-fuente-principal);
+            }
+        }
+
+    }
+
+.navbar-light .navbar-nav .nav-link{
+    justify-content: center;
+    font-size: 1.1rem;
+    color: map-get($colores, color-fuente-principal);
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+
+.dropdown-menu{
+    background-color: map-get($colores, azul-oscuro);
+    
+    .dropdown-item{
+        color: map-get($colores, color-fuente-principal);
+
+            &:hover{
+                background-color: map-get($colores, azul-claro);
+            }
+    }
+}
+
+#navbarNavDropdown{
+    justify-content: center;
+}
+
+.nav-link{
+    border-radius: 0.3rem;
+    
+         &:hover{
+              background-color: map-get($colores, azul-intermedio);
+        }
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:hover .show>.nav-link{
+    color: map-get($colores, color-fuente-principal);
 }

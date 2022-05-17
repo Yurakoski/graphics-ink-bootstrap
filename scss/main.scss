@@ -1,1 +1,11 @@
-@import "./components/header";
+@import './base/variables';
+@import './base/estilosGenerales';
+@import './components/backgrounds';
+@import './components/header';
+@import './components/titulo';
+@import './components/texto';
+@import './components/video';
+@import './components/carrousel';
+@import './components/formulario';
+@import './components/botonEnviar';
+@import './components/footer';

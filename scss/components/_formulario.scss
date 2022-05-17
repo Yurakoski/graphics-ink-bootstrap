@@ -1,0 +1,15 @@
+.formulario{
+    padding: 1rem;
+
+        .formulario__item {
+            width: 20rem;
+            font-size: map-get($tamanio-tipografia, texto-pequenio);
+            height: 2rem;
+        }
+        .formulario__item--mensaje{
+            width: 20rem;
+            font-size: map-get($tamanio-tipografia, texto-pequenio);
+            padding-bottom: 5rem;
+        }
+        
+}

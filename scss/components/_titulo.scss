@@ -1,0 +1,5 @@
+.titulo{
+    font-size: map-get($tamanio-tipografia, titulos);
+    background-color: map-get($colores, negro-transparencia);
+    color: map-get($colores, color-fuente-principal);
+}

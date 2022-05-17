@@ -1,0 +1,50 @@
+h1, h2, h3, h4{ 
+    color: map-get($colores, color-fuente-principal);
+}
+
+p{
+    color: map-get($colores, color-fuente-principal);
+}
+
+.parrafoInicial{
+    font-size: map-get($tamanio-tipografia, texto-principal);
+
+        & p{
+            color: map-get($colores, color-fuente-principal);
+        }
+}
+
+.parrafoSecundario{
+    font-size: map-get($tamanio-tipografia, texto-secundario);
+      
+        & p{
+             color: map-get($colores, color-fuente-principal);
+    }
+
+}
+
+.bordeRedondeado{
+    border-radius: $radio-borde;
+}
+
+.fondoOpaco{
+    background-color: map-get($colores, negro-transparencia);
+}
+
+.animacionTexto{
+    color: map-get($colores, color-fuente-principal);
+    animation: animacionTexto 7s linear 0s infinite normal forwards;
+}
+
+@keyframes animacionTexto {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
