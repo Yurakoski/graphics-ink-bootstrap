@@ -2,20 +2,24 @@
     background-color: map-get($colores, azul-intenso);
 }
 
-.logoFooter{
-    width: 8rem;
-}
-
-.listaFooter{
-             li{
-                padding-top: 1rem;
-                font-size: map-get($tamanio-tipografia, texto-pequenio);
-                color: map-get($colores, color-fuente-principal);
-                text-decoration: none;
-                list-style: none;
-                }
-                    a{
-                       text-decoration: none;
-                       color: map-get($colores, color-fuente-principal);
-                    }
+footer{
+    bottom: 0;
+    
+    .logoFooter{
+        width: 8rem;
+    }
+    
+    .listaFooter{
+        li{
+            padding-top: 1rem;
+            font-size: map-get($tamanio-tipografia, texto-pequenio);
+            color: map-get($colores, color-fuente-principal);
+            text-decoration: none;
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: map-get($colores, color-fuente-principal);
+        }
+    }
 }

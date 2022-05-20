@@ -54,19 +54,19 @@
     </header>
 
 <main>
-  <div class="fondoInicio pb-5">
+  <div class="fondoContacto pb-5">
     <div class="titulo text-center pb-5 pt-5 mb-5">
         <h1>Formulario de contacto</h1>
     </div>
     <div class="container-fluid centrado p-2">
       <div class="col-lg-9 col-md-9 col-sm-11">
         <div class="parrafoInicial fondoOpaco bordeRedondeado">
-          <form class="formulario text-center mt-3 mb-5">
+          <form  action="https://formspree.io/f/xeqnvbgl" method="POST" class="formulario text-center mt-3 mb-5">
             <h4 class="pt-4">Complete el siguiente formulario y nos comunicaremos a la brevedad:</h4>
-              <input class="formulario__item mt-5" type="text" placeholder="Nombre y apellido"><br>
-              <input class="formulario__item" type="tel" placeholder="Teléfono"><br>
-              <input class="formulario__item" type="email" placeholder="Email"><br>
-              <input class="formulario__item--mensaje" type="text" placeholder="Mensaje..."><br>
+              <input class="formulario__item mt-5" name="nombre" type="text" placeholder="Nombre"><br>
+              <input class="formulario__item" name="telefono" type="tel" placeholder="Teléfono"><br>
+              <input class="formulario__item" name="mail" type="email" placeholder="Email"><br>
+              <input class="formulario__item--mensaje" name="mensaje" type="text" placeholder="Mensaje..."><br>
               <button class="botonEnviar mt-5 bordeRedondeado">Enviar</button>
           </form>
         </div>

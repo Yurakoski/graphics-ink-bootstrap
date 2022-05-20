@@ -35,19 +35,23 @@ ol, ul {
   color: #7b99bd; }
 
 .fondoInicio {
-  background-image: url(../imagenes/printer.jpg);
+  background-image: url(../imagenes/plotter5.jpg);
   background-size: cover; }
 
 .fondoProductos {
   background-image: url(../imagenes/ola-fondo.jpg);
   background-size: cover; }
 
-.fondoPlotter {
-  background-image: url(../imagenes/plotter5.jpg);
-  background-size: cover; }
-
 .fondoServicios {
   background-image: url(../imagenes/printer2.jpg);
+  background-size: cover; }
+
+.fondoSobreNosotros {
+  background-image: url(../imagenes/plotter.jpg);
+  background-size: cover; }
+
+.fondoContacto {
+  background-image: url(../imagenes/printer.jpg);
   background-size: cover; }
 
 .logo {
@@ -88,7 +92,7 @@ ol, ul {
 
 .titulo {
   font-size: 1.4rem;
-  background-color: rgba(2, 2, 2, 0.658);
+  background-color: rgba(2, 2, 2, 0.705);
   color: white; }
 
 h1, h2, h3, h4 {
@@ -111,7 +115,7 @@ p {
   border-radius: 1rem; }
 
 .fondoOpaco {
-  background-color: rgba(2, 2, 2, 0.658); }
+  background-color: rgba(2, 2, 2, 0.705); }
 
 .animacionTexto {
   color: white;
@@ -158,16 +162,16 @@ video {
 .fondoPrincipal {
   background-color: #140664; }
 
-.logoFooter {
-  width: 8rem; }
-
-.listaFooter li {
-  padding-top: 1rem;
-  font-size: 1rem;
-  color: white;
-  text-decoration: none;
-  list-style: none; }
-
-.listaFooter a {
-  text-decoration: none;
-  color: white; }
+footer {
+  bottom: 0; }
+  footer .logoFooter {
+    width: 8rem; }
+  footer .listaFooter li {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    list-style: none; }
+  footer .listaFooter a {
+    text-decoration: none;
+    color: white; }

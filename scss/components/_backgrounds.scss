@@ -1,15 +1,19 @@
 .fondoInicio{
-    @include background-image(url(../imagenes/printer.jpg)); 
+    @include background-image(url(../imagenes/plotter5.jpg));
 }
 
 .fondoProductos{
     @include background-image(url(../imagenes/ola-fondo.jpg));
 }
 
-.fondoPlotter{
-    @include background-image(url(../imagenes/plotter5.jpg));
-}
-
 .fondoServicios{
     @include background-image(url(../imagenes/printer2.jpg));
+}
+
+.fondoSobreNosotros{
+    @include background-image(url(../imagenes/plotter.jpg));
+}
+
+.fondoContacto{
+    @include background-image(url(../imagenes/printer.jpg)); 
 }
