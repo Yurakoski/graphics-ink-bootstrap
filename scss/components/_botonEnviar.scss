@@ -6,6 +6,7 @@
     background-color: map-get($colores, azul-oscuro);
     color: map-get($colores, color-fuente-principal);
     margin-bottom: 5rem;
+    border-radius: 0.8rem;
 
         &:hover{
             background-color: map-get($colores, azul-claro);

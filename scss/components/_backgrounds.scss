@@ -17,3 +17,7 @@
 .fondoContacto{
     @include background-image(url(../imagenes/printer.jpg)); 
 }
+
+.fondo404{
+    @include background-image(url(../imagenes/desierto.jpg)); 
+}
