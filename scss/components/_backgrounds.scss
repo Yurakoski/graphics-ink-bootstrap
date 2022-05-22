@@ -1,23 +1,23 @@
 .fondoInicio{
-    @include background-image(url(../imagenes/plotter5.jpg));
+    @include background-image(url(../imagenes/plotter5.webp));
 }
 
 .fondoProductos{
-    @include background-image(url(../imagenes/ola-fondo.jpg));
+    @include background-image(url(../imagenes/ola-fondo.webp));
 }
 
 .fondoServicios{
-    @include background-image(url(../imagenes/printer2.jpg));
+    @include background-image(url(../imagenes/printer2.webp));
 }
 
 .fondoSobreNosotros{
-    @include background-image(url(../imagenes/plotter.jpg));
+    @include background-image(url(../imagenes/plotter.webp));
 }
 
 .fondoContacto{
-    @include background-image(url(../imagenes/printer.jpg)); 
+    @include background-image(url(../imagenes/printer.webp)); 
 }
 
 .fondo404{
-    @include background-image(url(../imagenes/desierto.jpg)); 
+    @include background-image(url(../imagenes/desierto.webp)); 
 }

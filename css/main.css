@@ -35,27 +35,27 @@ ol, ul {
   color: #7b99bd; }
 
 .fondoInicio {
-  background-image: url(../imagenes/plotter5.jpg);
+  background-image: url(../imagenes/plotter5.webp);
   background-size: cover; }
 
 .fondoProductos {
-  background-image: url(../imagenes/ola-fondo.jpg);
+  background-image: url(../imagenes/ola-fondo.webp);
   background-size: cover; }
 
 .fondoServicios {
-  background-image: url(../imagenes/printer2.jpg);
+  background-image: url(../imagenes/printer2.webp);
   background-size: cover; }
 
 .fondoSobreNosotros {
-  background-image: url(../imagenes/plotter.jpg);
+  background-image: url(../imagenes/plotter.webp);
   background-size: cover; }
 
 .fondoContacto {
-  background-image: url(../imagenes/printer.jpg);
+  background-image: url(../imagenes/printer.webp);
   background-size: cover; }
 
 .fondo404 {
-  background-image: url(../imagenes/desierto.jpg);
+  background-image: url(../imagenes/desierto.webp);
   background-size: cover; }
 
 .logo {
