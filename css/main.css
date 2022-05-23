@@ -148,8 +148,8 @@ p {
     transform-origin: top; } }
 
 video {
-  width: 100%;
-  max-width: 800px; }
+  width: 90%;
+  max-width: 700px; }
 
 #carousel01, #carousel02, #carousel03, #carousel04 {
   width: 85%; }
@@ -183,7 +183,7 @@ video {
 footer {
   bottom: 0; }
   footer .logoFooter {
-    width: 8rem; }
+    width: 7rem; }
   footer .listaFooter li {
     padding-top: 1rem;
     font-size: 1rem;
