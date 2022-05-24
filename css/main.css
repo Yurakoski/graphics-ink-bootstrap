@@ -36,26 +36,44 @@ ol, ul {
 
 .fondoInicio {
   background-image: url(../imagenes/plotter5.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .fondoProductos {
   background-image: url(../imagenes/ola-fondo.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .fondoServicios {
   background-image: url(../imagenes/printer2.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .fondoSobreNosotros {
   background-image: url(../imagenes/plotter.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .fondoContacto {
   background-image: url(../imagenes/printer.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .fondo404 {
   background-image: url(../imagenes/desierto.webp);
+  min-height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
   background-size: cover; }
 
 .logo {

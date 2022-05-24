@@ -25,5 +25,8 @@ $radio-borde: 1rem;
 
 @mixin background-image($urlImagen){
     background-image: $urlImagen;
+    min-height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
 };
