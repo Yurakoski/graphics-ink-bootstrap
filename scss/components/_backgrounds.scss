@@ -2,10 +2,6 @@
     @include background-image(url(../imagenes/plotter5.webp));
 }
 
-.fondoProductos{
-    @include background-image(url(../imagenes/ola-fondo.webp));
-}
-
 .fondoServicios{
     @include background-image(url(../imagenes/printer2.webp));
 }
@@ -20,4 +16,9 @@
 
 .fondo404{
     @include background-image(url(../imagenes/desierto.webp)); 
+}
+
+.fondoProductos{
+   background-image: url(../imagenes/ola-fondo.webp);
+   background-size: cover;
 }

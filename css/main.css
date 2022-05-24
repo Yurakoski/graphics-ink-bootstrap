@@ -41,13 +41,6 @@ ol, ul {
   background-attachment: fixed;
   background-size: cover; }
 
-.fondoProductos {
-  background-image: url(../imagenes/ola-fondo.webp);
-  min-height: 100vh;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover; }
-
 .fondoServicios {
   background-image: url(../imagenes/printer2.webp);
   min-height: 100vh;
@@ -74,6 +67,10 @@ ol, ul {
   min-height: 100vh;
   background-position: center center;
   background-attachment: fixed;
+  background-size: cover; }
+
+.fondoProductos {
+  background-image: url(../imagenes/ola-fondo.webp);
   background-size: cover; }
 
 .logo {
