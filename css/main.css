@@ -74,8 +74,7 @@ ol, ul {
   background-size: cover; }
 
 .logo {
-  width: 22rem;
-  height: 9rem; }
+  width: 40%; }
 
 .navbar {
   background-color: #140664; }
@@ -172,16 +171,18 @@ video {
 .formulario {
   padding: 1rem; }
   .formulario .formulario__item {
-    width: 20rem;
+    width: 30%;
+    margin-top: 0.6rem;
     font-size: 1rem;
     height: 2rem; }
   .formulario .formulario__item--mensaje {
-    width: 20rem;
+    width: 30%;
+    margin: 0.6rem;
     font-size: 1rem;
     padding-bottom: 5rem; }
 
 .botonEnviar {
-  width: 15rem;
+  width: 30%;
   font-size: 1rem;
   height: 3rem;
   border-color: #1d3ca1;
@@ -208,3 +209,39 @@ footer {
   footer .listaFooter a {
     text-decoration: none;
     color: white; }
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 60%; }
+  .formulario .formulario__item {
+    width: 50%; }
+  .formulario .formulario__item--mensaje {
+    width: 50%; }
+  .formulario .botonEnviar {
+    width: 50%; } }
+
+@media only screen and (max-width: 480px) {
+  #carousel01, #carousel02, #carousel03, #carousel04 {
+    width: 100%; }
+  .logo {
+    width: 80%; }
+  .subtitulo {
+    font-size: 0.4rem; }
+  .parrafoInicial {
+    font-size: 1rem; }
+  .parrafoSecundario {
+    font-size: 1rem; }
+  h4, .h4, h2, .h2 {
+    font-size: 1.2rem; }
+  video {
+    width: 100%; }
+  .parrafoInicial p {
+    padding: 0; }
+  .container {
+    background-color: black; }
+  .formulario .formulario__item {
+    width: 90%; }
+  .formulario .formulario__item--mensaje {
+    width: 90%; }
+  .formulario .botonEnviar {
+    width: 90%; } }

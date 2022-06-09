@@ -1,0 +1,72 @@
+@media only screen and (max-width: 768px){
+
+    .logo{
+        width: 60%;
+    }
+
+    .formulario{
+  
+        .formulario__item {
+            width: 50%;
+        }
+        .formulario__item--mensaje{
+            width: 50%;
+        }
+
+        .botonEnviar{
+            width: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #carousel01, #carousel02, #carousel03, #carousel04{
+        width: 100%;
+    }
+
+    .logo{
+        width: 80%;  
+    }
+
+    .subtitulo{
+        font-size: 0.4rem;
+    }
+
+    .parrafoInicial{
+        font-size: map-get($tamanio-tipografia, texto-pequenio);
+    }
+
+    .parrafoSecundario{
+        font-size: map-get($tamanio-tipografia, texto-pequenio);
+    }
+
+    h4, .h4, h2, .h2{
+        font-size: map-get($tamanio-tipografia, texto-secundario);
+    }
+
+    video{
+        width: 100%;
+    }
+
+    .parrafoInicial p{
+        padding: 0;
+    }
+
+    .container{
+        background-color: black;
+    }
+
+    .formulario{
+  
+            .formulario__item {
+                width: 90%;
+            }
+            .formulario__item--mensaje{
+                width: 90%;
+        }
+
+    .botonEnviar{
+        width: 90%;
+    }
+    }
+}
