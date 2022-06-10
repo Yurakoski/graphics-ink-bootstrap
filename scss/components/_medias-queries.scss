@@ -33,11 +33,11 @@
     }
 
     .parrafoInicial{
-        font-size: map-get($tamanio-tipografia, texto-pequenio);
+        font-size: map-get($tamanio-tipografia, texto-secundario);
     }
 
     .parrafoSecundario{
-        font-size: map-get($tamanio-tipografia, texto-pequenio);
+        font-size: map-get($tamanio-tipografia, texto-secundario);
     }
 
     h4, .h4, h2, .h2{
